@@ -1,7 +1,7 @@
 import css from './Navigation.module.css';
 import { NavLink, Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import { Loader } from '../../components/Loader/Loader';
+import { Loader } from '../Loader/Loader';
 
 export default function Navigation() {
   return (

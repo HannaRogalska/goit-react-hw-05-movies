@@ -10,6 +10,7 @@ export function Searchbar({ onSubmit }) {
   function formSubmit(e) {
     e.preventDefault();
     onSubmit(searchQuery);
+   
   }
 
   return (

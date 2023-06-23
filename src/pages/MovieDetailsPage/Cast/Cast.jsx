@@ -1,7 +1,7 @@
 import css from './Cast.module.css';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { getMovieCast, getImg } from 'services/moviesApi';
+import { getMovieCast, getImg } from '../../../services/moviesApi';
 import defaultAvatar from '../../../images/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png';
 
 export default function Cast() {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import css from './MoviesPage.module.css';
 import Notiflix from 'notiflix';
-import { searchMovies } from 'services/moviesApi';
+import { searchMovies } from '../../services/moviesApi';
 import { useSearchParams, useLocation, Link } from 'react-router-dom';
 import { Searchbar } from '../../components/Searchbar/Searchbar';
 
