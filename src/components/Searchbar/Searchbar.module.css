@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 200px;
+  height: 26px;
+}
+
+.btn {
+  margin-left: 5px;
+  height: 32px;
+  font-size: 14px;
+  background-color: rgba(56, 147, 192, 0.9);
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}

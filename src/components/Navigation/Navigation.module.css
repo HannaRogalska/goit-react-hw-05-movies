@@ -1,0 +1,33 @@
+.Navigation {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+  background-color: rgba(56, 147, 192, 0.9);
+}
+
+.nav > a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+}
+
+.nav a:not(:last-child) {
+  padding-right: 10px;
+}
+
+.nav a:hover {
+  transform: scale(1.05);
+}
+
+.nav a.active {
+  color: rgba(43, 31, 150, 0.856);
+  text-decoration: underline;
+}

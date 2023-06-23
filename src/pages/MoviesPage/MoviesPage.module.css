@@ -1,0 +1,20 @@
+.movies {
+  padding: 10px;
+  background-color: #7095a8;
+  min-height: 800px;
+}
+
+.list {
+  border: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.link {
+  color: #f5f5f5;
+}
